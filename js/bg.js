@@ -1,4 +1,4 @@
-const colors = ["#F4F7FF", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "black"];
+const colors = ["#F4F7FF", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "black", "pink", "purple"];
 
 const button = document.getElementById("colorBtn");
 

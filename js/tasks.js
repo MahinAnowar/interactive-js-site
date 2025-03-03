@@ -31,7 +31,7 @@ function completeTask(button, taskName) {
         let formattedTime = `${hours}:${minutes}:${seconds} ${ampm}`;
         let logEntry = document.createElement("p");
         logEntry.className = "text-base bg-[#F4F7FF] p-4 rounded-xl mb-4";
-        logEntry.innerText = `You have completed ${taskName} at ${formattedTime}`;
+        logEntry.innerText = `You have completed the task ${taskName} at ${formattedTime}`;
         
         logContainer.appendChild(logEntry);
         
